@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Course</title>
+</head>
+<body>
+    <h1>Course Registration Form</h1>
+    <form action = "thanking.html">
+
+        <fieldset>
+            <legend>Personal Details</legend>
+            <table>
+                <tr>
+                    <td><label>Name</label></td>
+                    <td><input type = "text" name = "FN" placeholder = "Ex:Jahnavi" size = "16" required></td>
+                </tr>
+                <tr>
+                    <td><label>Surname</label></td>
+                    <td><input type = "text" name ="SN" placeholder = "Ex:Bongu" size = "16" required></td>
+                </tr>
+                <tr>
+                    <td><label>Mobile Number</label></td>
+                    <td><input type = "tel" name = "MB" placeholder = "Ex: 9618632165" required></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type = "email" name = "email" placeholder ="so@gmail.com" required></td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input type="password" name = "PS" required></td>
+                </tr>
+                <tr>
+                    <td><label>Confirm Password</label></td>
+                    <td><input type = "password" name = "CPS" required></td>
+                </tr>
+                <tr>
+                    <td><label>DOB</label></td>
+                    <td><input type = "date" name = "dob" required></td>
+                </tr>
+
+
+            </table>
+        
+        
+        <label>Gender</label>
+        <input type ="radio" name = "gender" required> Male
+        <input type = "radio" name = "gender" required> Female
+        <input type = "radio" name = "gender" required> Other<br>
+        <label>Select Country</label>
+        <select>
+            <option>India</option>
+            <option>Australia</option>
+            <option>USA</option>
+        </select><br>
+        <label>Choose Photo</label>
+        <input type="file"><br>
+        <label>Choose</label>
+        <input type = "checkbox">HTML
+        <input type = "checkbox">Python
+        <input type = "checkbox">JavaScript
+        <input type = "checkbox">C#<br>
+        
+
+        <input type = "reset"><br>
+        <input type = "submit"><br>
+    
+        </fieldset>
+
+    
+    </form>    
+</body>
+</html>
