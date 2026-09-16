@@ -2,14 +2,39 @@
 <html lang="en">
 <head>
     <title>Styles</title>
-    <link rel="stylesheet" href="final.css">
+    <style>
+        div h1{
+            background-color: beige;
+        }
+        div h1 span{
+            background-color:blueviolet;
+        }
+
+        h2~p{
+            background-color: aquamarine;
+        }
+        h2+p{
+            background-color: bisque;
+        }
+    </style>
+    
 </head>
 <body>
-    <h1>Malla reddy</h1>
-    <h1>Students</h1>
-    <p>Jahnavi</p>
-    <p>Pranutha</p>
-    <P>Priya</P>
+    <div class="info">
+        <h1>Data <span>Science</span></h1>
+        <p>Data science is an interdisciplinary field that combines math, statistics, computer science, and business knowledge to extract useful insights from raw data </p>
+    </div>
+    <div>
+        <h1>Artificial Intelligence</h1>
+        <p>Artificial intelligence (AI) is the capability of computer systems and machines to perform tasks that usually require human intelligence, such as learning, reasoning, problem-solving, and decision-making.</p>
     
+    </div>
+    
+    <h2>Names</h2>
+    <p>Janu</p>
+    <p>Pranutha</p>
+    <p>Priya</p>
+    
+
 </body>
 </html>
